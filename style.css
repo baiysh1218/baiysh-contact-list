@@ -1,0 +1,33 @@
+#edit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(39, 144, 132, 0.29);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+#modal-edit-body {
+  background-color: rgba(255, 122, 46, 0.852);
+  width: 500px;
+  height: 400px;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: space-around;
+}
+#inp-id {
+  display: none;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
